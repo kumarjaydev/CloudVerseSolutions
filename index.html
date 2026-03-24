@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudVerseSolution - Custom App & Webapp Development</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">Cloud<span>Verse</span></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Our Process</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#contact" class="btn-small">Get Quote</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Crafting the Future: Custom <span>App & Webapp</span> Solutions.</h1>
+                <p>CloudVerseSolution builds scalable, high-performance digital products that drive growth and redefine industries. Your vision, expertly engineered.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn-secondary">Contact Our Experts</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=CloudVerse+Innovation" alt="CloudVerse Digital Innovation">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Core Services</h2>
+            <p class="section-subtitle">We build dynamic solutions tailored for speed, security, and scalability.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-code"></i></div>
+                    <h3>Webapp Development</h3>
+                    <p>From single-page applications to robust enterprise platforms. We craft responsive, cloud-native webapps using React, Angular, and Node.js.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile App Development</h3>
+                    <p>Native (iOS/Android) and Cross-Platform (Flutter/React Native) mobile experiences designed for user engagement and peak performance.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-paint-brush"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive user interfaces and engaging experiences that convert. We prioritize user journey, accessibility, and modern aesthetics.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Ready to Build?</h2>
+                    <p>Discuss your project with our lead architects. We provide a complimentary initial consultation and a detailed project roadmap.</p>
+                    <div class="info-details">
+                        <p><i class="fas fa-envelope"></i> contact@cloudversesolution.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) CloudVerse</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="quoteForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <select required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="webapp">Webapp Development</option>
+                            <option value="mobile">Mobile App Development</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                        <textarea placeholder="Briefly describe your project..." rows="5"></textarea>
+                        <button type="submit" class="btn-primary">Request Free Consultation</button>
+                    </form>
+                    <div id="formFeedback" class="hidden"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 CloudVerseSolution. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
